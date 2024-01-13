@@ -1,0 +1,4 @@
+E:\gb\Разработчик. Основной блок\Итоговая аттестация\obj\Debug\net8.0\Итоговая аттестация.GeneratedMSBuildEditorConfig.editorconfig
+E:\gb\Разработчик. Основной блок\Итоговая аттестация\obj\Debug\net8.0\Итоговая аттестация.AssemblyInfoInputs.cache
+E:\gb\Разработчик. Основной блок\Итоговая аттестация\obj\Debug\net8.0\Итоговая аттестация.AssemblyInfo.cs
+E:\gb\Разработчик. Основной блок\Итоговая аттестация\obj\Debug\net8.0\Итоговая аттестация.csproj.CoreCompileInputs.cache
