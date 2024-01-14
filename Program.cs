@@ -4,8 +4,17 @@
 // либо задать на старте выполнения алгоритма. При решении не рекомендуется
 // пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-string[] arr1 = new string[5] {"привет", "32", "Who i am?", "Dog", "2+1=4"};
-string[] arr2 = new string[arr1.Length];
+Console.Write("Введите количество элементов массива:\t");
+int elementsCount = int.Parse(Console.ReadLine());
+int[] myArray = new int[elementsCount];
+for (int i = 0; i < myArray.Length; i++)
+{
+    Console.Write($"Введите элемент массива под индексом {i}:\t ");
+    myArray[i] = int.Parse(Console.ReadLine());
+}
+
+// string[] arr1 = new string[5] {"привет", "32", "Who i am?", "Dog", "2+1=4"};
+// string[] arr2 = new string[arr1.Length];
 
 void SelectArr(string[] arr1, string[] arr2)
 {
@@ -19,6 +28,7 @@ void SelectArr(string[] arr1, string[] arr2)
         }    
     }
 }
+
 void PrintArr(string[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
@@ -27,5 +37,6 @@ void PrintArr(string[] arr)
     }
     Console.WriteLine();
 }
+
 SelectArr(arr1, arr2);
 PrintArr(arr2);
